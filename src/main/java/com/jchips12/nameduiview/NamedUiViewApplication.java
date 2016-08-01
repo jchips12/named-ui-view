@@ -8,7 +8,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.jchips12.nameduiview.entity.User;
-import com.jchips12.nameduiview.repository.UserRepository;
 import com.jchips12.nameduiview.service.UserService;
 
 @SpringBootApplication
