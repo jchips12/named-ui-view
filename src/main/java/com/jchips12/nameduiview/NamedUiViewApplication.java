@@ -22,9 +22,9 @@ public class NamedUiViewApplication implements CommandLineRunner{
 
     @Override
     public void run(String... args) throws Exception {
-        String bday = "05/30/1984";
+        String bday = "12/12/1984";
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        User user = new User("John Carlo", "Hipolito", sdf.parse(bday));
+        User user = new User("JC", "Hipolito", sdf.parse(bday));
         service.insert(user);
     }
 	
